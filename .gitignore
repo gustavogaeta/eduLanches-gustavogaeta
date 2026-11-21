@@ -1,0 +1,25 @@
+# Arquivos gerados e dependências
+node_modules/
+npm-debug.log*
+
+# Variáveis de ambiente com valores reais — NUNCA no Git
+.env
+
+# Logs
+*.log
+logs/
+
+# Cobertura de testes
+coverage/
+
+# Build e cache
+dist/
+.cache/
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

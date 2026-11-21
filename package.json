@@ -1,0 +1,21 @@
+{
+  "name": "edulanches",
+  "version": "1.0.0",
+  "description": "Sistema de gestão de cardápio e pedidos da cantina escolar — EduLanches",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start":            "node src/server.js",
+    "test":             "npm run test:unit && npm run test:integration",
+    "test:unit":        "node --test test/unit.test.js",
+    "test:integration": "node --test test/integration.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg":      "^8.13.3"
+  },
+  "keywords": ["cantina", "escola", "pedidos", "docker", "node"],
+  "license": "MIT"
+}
